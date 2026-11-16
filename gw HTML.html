@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<head>
+
+
+  <link rel="stylesheet" href="styles.css">
+  <!-- head
+
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the CSS file (used to style the webpage)
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+  <title>video</title>
+  <link rel="money" href="\VSCode Edu\img\money.jpg">
+
+</head>
+
+<body>
+
+
+
+  <!-- navbar
+
+Purpose:
+- Navigation bar that allows users to jump to different sections of the webpage
+- Also holds buttons for user settings (dark mode, reduce motion)
+
+When To Modify:
+- [ ] Project 4 (REQUIRED FEATURE)
+- [ ] Project 5 (REQUIRED FEATURE) 
+- [ ] Project 8 (STRETCH FEATURE) 
+- [ ] Any time between / after
+-->
+  <div class="navbar">
+    <ul>
+      <li><a href="https://ramp.com/l">Ramp</a></li>
+      <li><a href="https://www.investopedia.com/">Investopedia</a></li>
+      <li><a href id="https://www.schwab.com/">Charkes Schwab</a></li>
+      <li><a href="https://finance.yahoo.com/">Yahoo Finance</a></li>
+      <li><a href="https://www.tradestation.com/">Trade Station</a></li>
+      <li><button id="theme-button">Change Theme</button></li>
+       <li><button id="reduce-motion-button">Reduce Motion</button></li>
+    </ul>
+  </div>
+
+
+
+
+  <!-- navbar
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+
+  <div class="header-container">
+    <div id="header-item">
+      <img id="header-img" src="./img/logo500.png" />
+      <h1>Welcome to the Future</h1>
+    </div>
+
+    <h2>How we can learn history to get to the future</h2>
+
+    <div>
+      <div id="header-item">
+        <button type="button">Buy Stocks</button>
+        <button type="button">Stock prices</button>
+      </div>
+
+
+
+      <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        -->
+      <div class="revealable">
+      <h2>About the Event</h2>
+
+      <iframe src="https://player.vimeo.com/video/30273003" width="640" height="360"></iframe>
+
+
+      <p>We will talk about the stock market.
+        We will show how life was in the united States. This is for young adult to know the history of New York
+        and the stock market</p>
+      <p> The Stock market in the 1950s was great. Teacher were able to retire off the stock markets. IF the made
+        $36,000 a year,
+        but the receive $10 millions from investing $10,000 of stocks.
+        The downside late 1995-200s we seen people win and loss with the Dot-com bubbles.</p>
+
+      <h3>The Market</h3>
+      <h4>Tag Line</h4>
+      </div>
+      <ul>
+        <li> <b>Tell story:</b> <i>Tell the history of stock market</i></li>
+        <li> <b>the goodside:</b> <i>When people won in the market without real understanding it</i></li>
+        <li> <b>The conclusion:</b> <i>Alot of company went bankrupt during the dot-com bubble,
+            but it also made new millionaires and billionaires</i></li>
+      </ul>
+
+      <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        -->
+      <div class="revealable">
+      <h2>Event Schedule</h2>
+
+      <h3>Stock prices<b></b></h3>
+      <p>The stock price always move up and down real fast.</p>
+      <p>We need to understand the markets.</p>
+      <p>With math and algorithm, probability and statistics </p>
+
+
+      <img alt="Image description" src="\VSCode Edu\img\NY wallstreet.PNG" />
+      <h3>Wallstreet building<b></b></h3>
+      <p>Description of event activity.</p>
+
+      <img alt="Image description" src="\VSCode Edu\img\money falling.gif" width="700" />
+      <h3>Money <b></b></h3>
+      <p>What financial freedom mean to the people.
+        anyone can play the stock market. Most people invest
+        in stocks or directly invest with other companies
+      </p>
+      </div>
+
+      <section class="rsvp revealable">
+      <!-- rsvp
+ 
+Purpose:
+- Section for users to sign up for the event
+- Contains a form for users to input their information, 
+and a list of other users who have signed up
+
+When To Modify:
+- [ ] Project 6 (REQUIRED FEATURE) 
+- [ ] Project 6 (STRETCH FEATURE) 
+- [ ] Any time after
+-->
+      <section class="rsvp">
+        <h2>RSVP</h2>
+        <p id="rsvp-count">⭐ 3 people have RSVP'd to this event!</p>
+        <!--<button type="submit" id="rsvp-button">Submit RSVP</button>// -->
+
+        <div class="rsvp-container">
+          <p class="rsvp-para">
+            Hurry seats are filling up. Please sign up to see the best people on
+            Wall Street talk about stocks and the best way to trade. This is a
+            limited time offer!!!
+          </p>
+
+          <div class="rsvp-participants">
+            <p>🎟️ John C. Bogle from New Jersey has RSVP'd.</p>
+            <p>🎟️ Larry Fink from New York has RSVP'd.</p>
+            <p>🎟️ Warren Buffett from Nebraska has RSVP'd.</p>
+
+            <div class="participants">
+              <!-- RSVPs go here -->
+            </div>
+          </div>
+        </div>
+
+        <form class="rsvp-form" id="rsvp-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="state">Home State:</label>
+          <input type="text" id="state" name="state">
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </form>
+        <button id="rsvp-button">Submit RSVP</button>
+      </section>
+
+
+    <!-- success modal
+
+Purpose:
+- Modal that appears when a user successfully signs up for the event
+- Contains a personalized message and image
+
+When To Modify:
+- [ ] Project 9 (REQUIRED FEATURE)
+- [ ] Project 9 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+
+
+<div id="success-modal" class="modal">
+    <div class="modal-container">
+        <div class="modal-item">
+           <p id="modal-text">Thanks for signing up! We'll see you at the event.</p>
+        </div>
+        <div class="modal-item">
+            <img id="modal-img" src="./img/money.jpg" alt="Money falling" width="200" />
+             <button id="close-modal-button">Close</button>
+        </div>
+    </div>
+</div>
+
+        <div class="revealable">
+      <h2>Links</h2>
+
+      <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+      <a class="block" href="https://www.cnn.com/markets">
+        <article>
+          <h3>read the charts of many companies</h3>
+          <p>This website show the past and future of companies stock.</p>
+        </article>
+
+        <a class="block" href="https://www.morningstar.com/">
+          <article>
+            <h3>for beginners to stock market</h3>
+            <p>learn tools on how to read
+              the market and understand the algorithm .</p>
+          </article>
+          <a class="block" href="https://en.wikipedia.org/wiki/Wall_Street">
+            <article>
+              <h3>Wall Street Never sleep</h3>
+              <p> This article teach the history of wall steet. This a good article
+                to look at history.</p>
+            </article>
+          </a>
+        </div>
+          <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+          <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+
+          <div class="footer">
+            <p>&copy; 2026 My Page</p>
+            <a href="https://www.wsj.com/" target="_blank">The Wall Street Journal</a>
+
+            <a href="https://us.etrade.com/" target="_blank">E*Trader</a>
+          </div>
+          <script src="index.js"></script>
+</body>
+
+</html>
